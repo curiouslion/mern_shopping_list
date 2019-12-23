@@ -9,7 +9,7 @@ const auth = require("../../middleware/auth");
 // User model
 const Item = require("../../models/User");
 
-// @route POST api/users
+// @route POST api/auth/users
 // @desc Register new user
 // @access Public
 router.post("/", (req, res) => {
